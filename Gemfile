@@ -10,6 +10,7 @@ gem 'daimon_news', path: './daimon_news'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-rails'
 end
 
 group :development do
