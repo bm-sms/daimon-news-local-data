@@ -1,3 +1,9 @@
+PATH
+  remote: ./daimon_news
+  specs:
+    daimon_news (0.0.1)
+      rails (~> 4.2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -122,6 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  daimon_news!
   jquery-rails
   rails (= 4.2.4)
   sass-rails

@@ -6,6 +6,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'sqlite3'
 gem 'uglifier'
+gem 'daimon_news', path: './daimon_news'
 
 group :development, :test do
   gem 'byebug'
