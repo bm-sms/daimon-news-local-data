@@ -1,4 +1,4 @@
-class <%= class_name %>Controller < ApplicationController
+class <%= singular_name.classify.pluralize %>Controller < ApplicationController
   def index
     @posts = DaimonNews::Post.all
   end
